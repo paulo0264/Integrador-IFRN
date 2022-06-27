@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | E-Shopper</title>
+    <title>E-Soluções</title>
     <link href="{{ url ('assets/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{ url ('assets/css/font-awesome.min.css')}}" rel="stylesheet">
     <link href="{{ url ('assets/css/prettyPhoto.css')}}" rel="stylesheet">
@@ -62,7 +62,7 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="logo pull-left">
-                            <a href="index.html"><img src="images/home/logo.png" alt="" /></a>
+                            <a href="index.html"><img src="{{ url ('/images/home/logo.png')}}" alt="" /></a>
                         </div>
 
                     </div>
@@ -71,8 +71,8 @@
                             <ul class="nav navbar-nav">
                                 <li><a href="#"><i class="fa fa-user"></i> Conta</a></li>
                                 <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Conferir</a></li>
-                                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Carrinho</a></li>
-                                <li><a href="login.html"><i class="fa fa-lock"></i> Logar</a></li>
+                                <li><a href="/cart"><i class="fa fa-shopping-cart"></i> Carrinho</a></li>
+                                <li><a href="/login"><i class="fa fa-lock"></i> Logar</a></li>
                             </ul>
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                         </div>
                         <div class="mainmenu pull-left">
                             <ul class="nav navbar-nav collapse navbar-collapse">
-                                <li><a href="index.html" class="active">Inicio</a></li>
+                                <li><a href="/" class="active">Inicio</a></li>
                                 <li class="dropdown"><a href="#">Comprar<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
                                         <li><a href="shop.html">Produtos</a></li>
@@ -114,7 +114,7 @@
                                     </ul>
                                 </li>
                                 <li><a href="404.html">404</a></li>
-                                <li><a href="contact-us.html">Contato</a></li>
+                                <li><a href="/contact">Contato</a></li>
                             </ul>
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                 <div class="row">
                     <div class="col-sm-2">
                         <div class="companyinfo">
-                            <h2><span>e</span>-shopper</h2>
+                            <h2><span>E</span>-SOLUÇÕES</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                             <div class="video-gallery text-center">
                                 <a href="#">
                                     <div class="iframe-img">
-                                        <img src="images/home/iframe1.png" alt="" />
+                                        <img src="{{ url ('assets/images/home/iframe1.png')}}" alt="" />
                                     </div>
                                     <div class="overlay-icon">
                                         <i class="fa fa-play-circle-o"></i>
@@ -167,7 +167,7 @@
                             <div class="video-gallery text-center">
                                 <a href="#">
                                     <div class="iframe-img">
-                                        <img src="images/home/iframe2.png" alt="" />
+                                        <img src="{{ url ('assets/images/home/iframe2.png')}}" alt="" />
                                     </div>
                                     <div class="overlay-icon">
                                         <i class="fa fa-play-circle-o"></i>
@@ -182,7 +182,7 @@
                             <div class="video-gallery text-center">
                                 <a href="#">
                                     <div class="iframe-img">
-                                        <img src="images/home/iframe3.png" alt="" />
+                                        <img src="{{ url ('assets/images/home/iframe3.png')}}" alt="" />
                                     </div>
                                     <div class="overlay-icon">
                                         <i class="fa fa-play-circle-o"></i>
@@ -197,7 +197,7 @@
                             <div class="video-gallery text-center">
                                 <a href="#">
                                     <div class="iframe-img">
-                                        <img src="images/home/iframe4.png" alt="" />
+                                        <img src="{{ url ('assets/images/home/iframe4.png')}}" alt="" />
                                     </div>
                                     <div class="overlay-icon">
                                         <i class="fa fa-play-circle-o"></i>
